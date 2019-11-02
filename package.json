@@ -1,11 +1,11 @@
 {
   "name": "ripple-lib",
-  "version": "1.4.0-b2",
+  "version": "1.4.0",
   "license": "ISC",
-  "description": "A JavaScript API for interacting with Ripple in Node.js and the browser",
+  "description": "A TypeScript/JavaScript API for interacting with the XRP Ledger in Node.js and the browser",
   "files": [
     "dist/npm/*",
-    "build/*"
+    "build/ripple-latest-min.js"
   ],
   "main": "dist/npm/",
   "types": "dist/npm/index.d.ts",
@@ -31,6 +31,7 @@
     "ws": "^3.3.1"
   },
   "devDependencies": {
+    "@types/mocha": "^5.2.7",
     "@types/node": "11.13.0",
     "@typescript-eslint/eslint-plugin": "^2.3.3",
     "@typescript-eslint/parser": "^2.3.3",
